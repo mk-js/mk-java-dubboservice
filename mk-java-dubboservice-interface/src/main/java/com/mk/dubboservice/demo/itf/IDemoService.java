@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * Created by shenxy on 27/9/17.
  *
- * demo interface for mk-dubboservice
+ * demo interface for mk-java-dubboservice
  */
 @RequestMapping("/demo")
 public interface IDemoService {

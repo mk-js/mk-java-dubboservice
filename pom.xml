@@ -8,7 +8,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mk-java-service</artifactId>
+    <artifactId>mk-java-dubboservice</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>mk-java-dubboservice-interface</module>

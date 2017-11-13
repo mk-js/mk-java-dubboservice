@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Service
-public class ExpenseDemoServiceImpl implements IDemoService {
+public class DemoServiceImpl implements IDemoService {
     @Override
     public String hi() {
         return "**response from demo java service**    ";

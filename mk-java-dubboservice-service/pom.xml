@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>mk-java-service</artifactId>
+        <artifactId>mk-java-dubboservice</artifactId>
         <groupId>com.mk.dubboservice</groupId>
         <version>${project.version}</version>
     </parent>
@@ -31,6 +31,7 @@
         </dependency>
 
         <dependency>
+            <scope>system</scope>
             <systemPath>${basedir}/lib/dubbo-2.8.4a.jar</systemPath>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
@@ -64,7 +65,7 @@
     </dependencies>
 
     <build>
-        <finalName>mk-java-service-service</finalName>
+        <finalName>mk-java-dubboservice-service</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources/mapping</directory>
