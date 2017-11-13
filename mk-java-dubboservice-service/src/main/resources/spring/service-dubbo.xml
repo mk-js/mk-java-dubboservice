@@ -32,8 +32,8 @@
 	<dubbo:consumer  timeout="30000" check="false" retries="0" />
 		
 	<!-- 使用注解方式暴露接口 -->
-	<dubbo:annotation package="com.rt.bc.expense.impl" service-group="${dubbo.service.group}"  reference-group="${dubbo.reference.group}" />
+	<dubbo:annotation package="com.mk.dubboservice.demo.impl" service-group="${dubbo.service.group}"  reference-group="${dubbo.reference.group}" />
 
 	<!-- 加入spring注解扫描 -->
-    <context:component-scan base-package="com.rt.bc.expense.impl"/>
+    <context:component-scan base-package="com.mk.dubboservice.demo.impl"/>
 </beans>
