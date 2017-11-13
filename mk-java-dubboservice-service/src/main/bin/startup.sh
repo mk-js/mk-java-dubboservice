@@ -1,0 +1,1 @@
+nohup java $1 -jar "../mk-java-dubboservice-service.jar" &
